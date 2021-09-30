@@ -30,3 +30,9 @@
 .blue {
     background-color: blue;
 }
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
